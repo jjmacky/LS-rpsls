@@ -1,7 +1,7 @@
 def prompt(message, prepend_empty_line = false)
   prefix = ""
   prefix = "\n" if prepend_empty_line
-  new_message = (prefix+message).split("\n").map(&:strip).map do |str|
+  new_message = (prefix + message).split("\n").map(&:strip).map do |str|
     "=> #{str}"
   end
   puts new_message.join(" \n")
@@ -11,7 +11,7 @@ def reterive_message(message)
   GAME_MESSAGES[message]
 end
 
-def display_game_options 
+def display_game_options
   prompt(reterive_message('game_choice'), true)
   str = ''
   GAME_DETAILS.each_with_index do |(key, value), index|
@@ -273,7 +273,7 @@ def display_game_goal
 end
 
 def display_game_items
-    prompt("Here are the choices: #{ITEM_LIST.join(', ')}.")
+  prompt("Here are the choices: #{ITEM_LIST.join(', ')}.")
 end
 
 def display_another_game_message
@@ -296,7 +296,7 @@ def exit_game?
     else
       prompt(reterive_message('invalid_choice'))
     end
-  end 
+  end
 end
 
 # Get config options
