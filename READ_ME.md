@@ -34,20 +34,20 @@ The funtionality of the methods are shown in a set of files in the proof_of_conc
 is some structure required of some of the input hashes, but other than that the code can read and 
 output different inputs.
 
-  Some examples:
-  Given an arbitrary list of n words the code will build a hash that groups the words by the first 
+  Some examples:  
+  * Given an arbitrary list of n words the code will build a hash that groups the words by the first 
   letter. If the user choses a letter with multipe words the words will automatically be presented 
   with cooresponding numbers so the user can chose between them.
 
-  Given a list of n players and their type -- either computer or human -- the code will collect a 
+  * Given a list of n players and their type -- either computer or human -- the code will collect a 
   list of player names and their initial score.
 
-  Given a win-state matrix of dimension n and the associated player answers the code can traverse 
+  * Given a win-state matrix of dimension n and the associated player answers the code can traverse 
   the hash to find the winner.
 
-  Given a game hash with directions the code can present game descriptions and setup the game.
+  * Given a game hash with directions the code can present game descriptions and setup the game.
 
-  Given a player hash the code can present the current score and list the winner.
+  * Given a player hash the code can present the current score and list the winner.
 
 As you can see many of the game functions are even more generic than the three provided games leverage.
 For example, every game has to be able to periodically provide the score and present a winner, initiate
