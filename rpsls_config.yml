@@ -1,0 +1,40 @@
+game_details:
+  :Directions: "Enter the first letter of an item to select it.\nGo to this site to learn which itmes win http://www.samkass.com/theories/RPSSL.html"
+  :Options: 
+    1 Player:
+      :num_players: 2
+      :description: Play against the computer
+      :player_types:
+      - human
+      - computer
+    2 Player:
+      :num_players: 2
+      :description: Play against a friend
+      :player_types:
+      - human
+      - human
+    Simulation:
+      :num_players: 2
+      :description: Watch the computer play
+      :player_types:
+      - computer
+      - computer
+
+win_states:
+- Tie
+- Player 0
+- Player 1
+- Player 0
+- Player 1
+
+item_list: 
+- rock
+- lizard
+- spock
+- scissors
+- paper
+
+score_that_wins: 5
+initial_score: 0
+thinking_time: 1.5
+pause_time: 0.3

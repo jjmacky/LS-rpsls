@@ -1,0 +1,9 @@
+:file_1: 
+  :description: "rock, paper, scissors"
+  :file: rps_config.yml
+:file_2: 
+  :description: "rock, paper, scissors, lizzard, spock"
+  :file: rpsls_config.yml
+:file_3: 
+  :description: "crazy, nine-item game"
+  :file: crazy_game_config.yml

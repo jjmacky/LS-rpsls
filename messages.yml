@@ -1,0 +1,8 @@
+game_choice: "What kind of would you like to play?"
+invalid_choice: "Sorry, that's an invalid choice. Try again..."
+multiple_items: "You entered a letter with multiple items..."
+tie: "This round was a tie."
+play_again: "Would you like to play again?"
+another_game: "Let's play again!"
+
+
